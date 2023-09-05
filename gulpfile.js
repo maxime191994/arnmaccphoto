@@ -6,3 +6,8 @@ gulp.task('sass', function () {
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('output')); // Remplacez par votre chemin de sortie
 });
+
+// Définition de la tâche par défaut
+gulp.task('default', gulp.series('sass', function () {
+  // Le code de votre tâche par défaut va ici
+}));
