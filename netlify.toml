@@ -5,4 +5,4 @@
 [build.environment]
   NODE_VERSION = "18.17.0"
 [build.publish]
-  directory = "output"
+  directory = "CCPhoto"
