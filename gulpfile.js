@@ -1,4 +1,5 @@
 const sass = require('gulp-sass')(require('sass'));
+const gulp = require('gulp');
 
 gulp.task('sass', function () {
   return gulp.src('source/**/*.scss') // Remplacez par votre chemin SCSS
