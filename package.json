@@ -22,8 +22,6 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
-    "sass": "^1.66.1",
-    "netlify-cms": "^2.14.11",
-    "netlify-cms-proxy-server": "^1.6.0"
-  }
+    "sass": "^1.66.1"
+    }
 }
