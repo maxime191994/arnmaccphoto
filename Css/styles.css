@@ -55,6 +55,13 @@
     footer{
       font-family: 'Montserrat', sans-serif;
       font-weight: 500;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #343a40; /* Couleur de fond de votre footer */
+      color: #ffffff; /* Couleur du texte de votre footer */
+      padding: 10px 0;
     }
+    
 
 
