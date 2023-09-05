@@ -6,6 +6,12 @@
             background-repeat: no-repeat;
         }
 
+        .jumbotron{
+          background-image: url('../images/Fond\ 1.jpg'); /* Chemin vers l'image de fond */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
         /* Personnaliser la couleur de fond de la barre de navigation */
         .navbar {
             background-color: #343a40; /* Couleur gris foncé */

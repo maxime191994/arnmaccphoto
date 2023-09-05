@@ -1,5 +1,5 @@
 [build]
-  publish = "CCPhoto"
+  publish = "C:\\wamp64\\www\\CCPhoto"
   command = "npm run build"
 
 [build.environment]
