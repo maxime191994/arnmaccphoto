@@ -4,7 +4,7 @@ const gulp = require('gulp');
 gulp.task('sass', function () {
   return gulp.src('source/**/*.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('output'));
+    .pipe(gulp.dest('CCPhoto')); // Modifier le répertoire de destination
 });
 
 gulp.task('default', gulp.series('sass', function (done) {
