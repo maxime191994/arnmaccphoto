@@ -3,7 +3,6 @@
   command = "npm run build"
 
 [build.environment]
-  NODE_VERSION = "18.17.0"  # Remplacez x.y.z par la version de Node.js que vous utilisez localement.
-
+  NODE_VERSION = "18.17.0"
 [build.publish]
-  directory = "output"  # Répertoire où les fichiers générés seront disponibles après la construction.
+  directory = "output"
