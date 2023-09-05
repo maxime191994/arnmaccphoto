@@ -1,0 +1,13 @@
+/* Cacher toutes les images par défaut */
+.image-item {
+  display: none;
+}
+
+.image-item img {
+  max-width: 80%; /* Vous pouvez ajuster la valeur selon vos besoins */
+  height: auto;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}

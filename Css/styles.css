@@ -1,0 +1,60 @@
+
+        /* Ajouter une classe personnalisée pour le fond d'écran */
+        body {
+            background-image: url('../images/Fond\ 1.jpg'); /* Chemin vers l'image de fond */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        /* Personnaliser la couleur de fond de la barre de navigation */
+        .navbar {
+            background-color: #343a40; /* Couleur gris foncé */
+        }
+
+        /* Personnaliser la couleur du texte de la barre de navigation */
+        .navbar-dark .navbar-nav .nav-link {
+            color: white;
+            font-family: 'Montserrat', sans-serif; /* Couleur du texte blanc */
+        }
+
+        /* Personnaliser la couleur des icônes de réseaux sociaux */
+        .navbar-dark .navbar-nav .nav-link .fab {
+            color: white;
+            font-family: 'Montserrat', sans-serif; /* Couleur du texte blanc */
+        }
+
+        .logo {
+          max-width: 100px; /* Définissez la largeur maximale souhaitée */
+          height: auto; /* Conservez le rapport hauteur/largeur */
+      }
+   
+    .jumbotron {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Utilise 100% de la hauteur de la vue pour centrer verticalement */
+    }
+
+    h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+    }
+
+    .table{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      width: 100%; /* Élargir le tableau pour qu'il occupe toute la largeur disponible */
+      margin-bottom: 1rem; /* Ajouter un peu d'espace sous le tableau */
+    }
+
+  /* Style pour les cellules du tableau (lignes) */
+     .table td, .table th {
+      padding: 1rem; /* Ajouter de l'espace autour du contenu de chaque cellule */
+    }
+
+    footer{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+    }
+
+
