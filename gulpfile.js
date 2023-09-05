@@ -1,10 +1,7 @@
-const gulp = require('gulp');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 
 gulp.task('sass', function () {
-    return gulp.src('src/scss/**/*.scss')
-        .pipe(sass())
-        .pipe(gulp.dest('dist/css'));
+  return gulp.src('source/**/*.scss') // Remplacez par votre chemin SCSS
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('output')); // Remplacez par votre chemin de sortie
 });
-
-gulp.task('default', gulp.series('sass'));
