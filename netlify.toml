@@ -3,4 +3,7 @@
   command = "npm run build"
 
 [build.environment]
-  NODE_VERSION = "18.17.0"
+  NODE_VERSION = "*"
+
+[context.production]
+  command = "npm start"

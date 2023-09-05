@@ -1,23 +1,29 @@
 {
   "name": "ccphoto",
   "version": "1.0.0",
-  "description": "",
+  "description": "Description de votre projet",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gulp"
+    "build": "gulp",
+    "start": "your-start-script",
+    "cms:build": "netlify-cms build",
+    "cms:serve": "netlify-cms-proxy-server"
   },
   "keywords": [],
-  "author": "",
+  "author": "Votre nom",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.1",
     "jquery": "^3.7.1",
     "popper.js": "^1.16.1"
+  
   },
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
-    "sass": "^1.66.1"
+    "sass": "^1.66.1",
+    "netlify-cms": "^2.14.11",
+    "netlify-cms-proxy-server": "^1.6.0"
   }
 }
