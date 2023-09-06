@@ -3,55 +3,57 @@
 <head>
     <!-- Include Bootstrap CSS and JavaScript here -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="Css/styles.css">
-    <link rel="stylesheet" href="Css/galerie.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charles Cantin - Photographe</title>
 </head>
 <body>
     <!-- Barre de navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/Logo.png" alt="Logo Charles Cantin" class="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="galerie.html">Galerie</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tarifs.html">Tarifs et Prestations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-                <!-- Icônes Facebook et Instagram -->
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link text-light"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link text-light"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link text-light"><i class="fab fa-instagram"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/Logo.png" alt="Logo Charles Cantin" class="logo">
+      </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="galerie.html">Galerie</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="tarifs.html">Tarifs et Prestations</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+              </ul>
+              <!-- Icônes Facebook et Instagram -->
+              <ul class="navbar-nav ml-auto">
+                <li class="list-inline-item">
+                  <a href="#" class="text-light"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                  <a href="#" class="text-light"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                  <a href="#" class="text-light"><i class="fab fa-instagram"></i></a>
+              </li>
+              <!-- Ajoutez d'autres icônes de réseaux sociaux au besoin -->
+              </ul>
+          </div>
+      </div>
+  </nav>
 
     <!-- Formulaire de contact -->
     <div class="container mt-4">
@@ -73,35 +75,35 @@
             <button type="submit" class="btn btn-primary">Envoyer</button>
         </form>
     </div>
+  </body>
 
-    <footer class="bg-dark text-light py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center mb-4">
-                    <h5>Suivez-nous sur les réseaux sociaux :</h5>
-                    <!-- Icônes Facebook et Instagram -->
-                    <ul class="list-unstyled list-inline">
-                        <li class="list-inline-item">
-                            <a href="#" class="text-light"><i class="fab fa-facebook fa-2x"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#" class="text-light"><i class="fab fa-twitter fa-2x"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#" class="text-light"><i class="fab fa-instagram fa-2x"></i></a>
-                        </li>
-                        <!-- Ajoutez d'autres icônes de réseaux sociaux au besoin -->
-                    </ul>
-                </div>
-                <div class="col-md-6 text-center">
-                    <address class="small">
-                        123 Rue des Exemples, Votre Ville<br>
-                        Email : contact@example.com<br>
-                        Téléphone : +33 1 23 45 67 89
-                    </address>
-                </div>
-            </div>
+    <footer class="bg-dark text-light py-4 d-none d-md-block fixed-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5 class="text-center">Suivez-nous sur les réseaux sociaux :</h5>
+            <ul class="list-unstyled list-inline text-center">
+              <li class="list-inline-item">
+                <a href="#" class="text-light"><i class="fab fa-facebook fa-2x"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-light"><i class="fab fa-twitter fa-2x"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-light"><i class="fab fa-instagram fa-2x"></i></a>
+              </li>
+              <!-- Ajoutez d'autres icônes de réseaux sociaux au besoin -->
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <address class="small">
+              123 Rue des Exemples, Votre Ville<br>
+              Email : contact@example.com<br>
+              Téléphone : +33 1 23 45 67 89
+            </address>
+          </div>
         </div>
+      </div>
     </footer>
-</body>
+
 </html>
