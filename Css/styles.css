@@ -66,10 +66,9 @@ footer {
   background-color: #343a40;
   color: #ffffff;
   padding: 10px 0;
+  margin-top: 60px;
 }
 
-.fixed-bottom {
-  margin-top: 20px; /* Ajustez cette valeur en fonction de vos besoins */
-}
+
 
 
